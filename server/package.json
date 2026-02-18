@@ -4,11 +4,12 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "node init && nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cloudinary": "^2.0.1",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.4.5",
